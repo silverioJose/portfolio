@@ -1,6 +1,6 @@
 .header {
-    background-color: rgb(98, 23, 13);
-    color: rgb(253, 237, 236);
+    background-color: var(--color-secundary-bg);
+    color: var(--color-text);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -24,6 +24,6 @@
 }
 
 .nav__button:hover {
-    border-color: rgb(253, 237, 236);
+    border-color: var(--color-text);
     background-color: rgba(253, 237, 236, 0.1);
 }
