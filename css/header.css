@@ -21,9 +21,23 @@
     border: 1px solid transparent;
     border-radius: 15px;
     padding: 10px 15px;
+    transform: scale(1);
+}
+
+.nav__button.active {
+    border-color: var(--color-text);
+    background-color: rgba(253, 237, 236, 0.1);
+    transform: scale(1.1);
 }
 
 .nav__button:hover {
     border-color: var(--color-text);
     background-color: rgba(253, 237, 236, 0.1);
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 50px;
 }
