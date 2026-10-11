@@ -1,0 +1,113 @@
+.contato {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 10px;
+}
+
+.contato_info {
+    background-color: var(--color-glass);
+    backdrop-filter: blur(10px);
+
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+
+}
+
+.contato_info a {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    
+}
+
+.contato_info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 3px 10px black;
+}
+
+.contato_info svg {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.socials a {
+    width: 100%;
+}
+
+.grupo-form input,
+.grupo-form textarea {
+    border: 1px solid rgb(45, 45, 45);
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    background-color: rgb(18, 18, 18);
+    border-radius: 10px;
+    color: var(--color-text);
+    padding: 5px;
+    padding-right: 0;
+
+    resize: none;
+}
+
+.grupo-form input:focus,
+.grupo-form textarea:focus {
+    outline: none;
+    border: 1px solid var(--border);
+    
+}
+
+.contato_form h2 {
+    margin-bottom: 10px;
+}
+
+
+
+.contato_form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    background-color: var(--color-glass);
+    backdrop-filter: blur(10px);
+
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
+
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: var(--color-glass);
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--color-text);
+    height: 50px;
+    
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    border: 1px solid var(--border);
+}

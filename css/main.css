@@ -4,6 +4,7 @@
 @import url(project.css);
 @import url(header.css);
 @import url(variables.css);
+@import url(contato.css);
 
 *{
     font-family: "Poppins";

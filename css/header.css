@@ -1,5 +1,12 @@
 .header {
-    background-color: var(--color-secundary-bg);
+    background-color: var(--color-glass);
+    backdrop-filter: blur(10px);
+
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
+
+
     color: var(--color-text);
     padding: 10px;
     display: flex;
@@ -25,16 +32,14 @@
 }
 
 .nav__button.active {
-    border-color: var(--color-text);
     background-color: rgba(253, 237, 236, 0.1);
-    transform: scale(1.1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
 }
 
-.nav__button:hover {
-    border-color: var(--color-text);
+.nav__button:hover { 
     background-color: rgba(253, 237, 236, 0.1);
-    transform: scale(1.1);
-    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    
 }
 
 .title {

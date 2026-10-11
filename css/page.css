@@ -20,4 +20,10 @@ ul {
 .body {
     background-color: var(--color-primary-bg);
     color: var(--color-text);
+
+  
+    background: radial-gradient(circle at 50% 0%, #3d0c0c 0%, #150303 50%, #000000 100%);
+    background-attachment: fixed;
+    color: var(--color-text);
 }
+
