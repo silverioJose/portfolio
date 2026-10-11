@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(98, 23, 13);
+    color: rgb(253, 237, 236);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav__button {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.nav__button:hover {
+    border-color: rgb(253, 237, 236);
+    background-color: rgba(253, 237, 236, 0.1);
+}
