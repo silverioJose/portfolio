@@ -27,3 +27,29 @@ ul {
     color: var(--color-text);
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+img, video, input, textarea, select {
+    max-width: 100%;
+}
+
+@media (max-width: 380px) {
+    .content {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 413px) {
+    .content {
+        padding: 0 15px;
+    }
+}
+
