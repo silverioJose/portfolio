@@ -7,7 +7,7 @@
     border-left: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 15px 15px 0 0;
 
-    padding: 10px 50px;
+    padding: 15px 25px;
     margin-top: 20px;
 
     display: flex;
@@ -23,9 +23,17 @@
     gap: 8px;
 }
 
+.footer__col--links {
+    display:flex;
+    flex-direction: column;
+}
+
 .footer__col--center {
     align-items: center;
     text-align: center;
+}
+.footer__col--links--right {
+    align-items: flex-end;
 }
 
 .footer__col--right {
@@ -73,5 +81,14 @@
 
     .footer__col a:hover {
         transform: translateY(-2px);
+    }
+
+    .footer__col--links {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .footer__col--center {
+        order: -1;
     }
 }
