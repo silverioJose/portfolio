@@ -71,6 +71,10 @@
     padding-bottom:  10px;
 }
 
+.tres-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .project__info--col-table > div {
     display: flex;
     flex-direction: column;
@@ -88,6 +92,21 @@
     border-left: 1px solid var(--border);
     height: 100%;
     border-collapse: separate;
+}
+
+.list {
+    padding: 15px;
+    background-color: var(--color-glass);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .table th {
@@ -113,8 +132,14 @@
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
     border-radius: 15px;
 
-    display: grid;
-    grid-template-columns: 1fr 700px;
+    padding: 20px;
+    
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+.project__structure pre {
+    margin: 0;
 }
 
 .end__btn-project {
