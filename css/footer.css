@@ -3,8 +3,8 @@
     backdrop-filter: blur(10px);
     color: var(--color-text);
 
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
     border-radius: 15px 15px 0 0;
 
     padding: 15px 25px;
@@ -26,6 +26,7 @@
 .footer__col--links {
     display:flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .footer__col--center {
