@@ -36,14 +36,13 @@
 }
 
 .nav__button.active {
-    background-color: rgba(253, 237, 236, 0.1);
+    background-color: var(--color-glass);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
 }
 
 .nav__button:hover { 
-    background-color: rgba(253, 237, 236, 0.1);
+    background-color: var(--color-glass);
     border: 1px solid var(--border);
-  
 }
 
 .title {

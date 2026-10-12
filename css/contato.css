@@ -17,6 +17,7 @@
     margin-bottom: 10px;
     border-radius: 15px;
 
+    transition: transform 0.3s ease;
 }
 
 .contato_info a {
@@ -26,7 +27,7 @@
 }
 
 .contato_info:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     box-shadow: 0 3px 10px black;
 }
 
@@ -48,12 +49,12 @@
 
 .grupo-form input,
 .grupo-form textarea {
-    border: 1px solid rgb(45, 45, 45);
+    border: 1px solid var(--border);
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
 
-    background-color: rgb(18, 18, 18);
+    background-color: rgba(18, 18, 18, 0.416);
     border-radius: 10px;
     color: var(--color-text);
     padding: 5px;
@@ -61,6 +62,11 @@
 
     resize: none;
     box-sizing: border-box;
+}
+
+.grupo-form input::placeholder,
+.grupo-form textarea::placeholder {
+    opacity: 0.4;
 }
 
 .grupo-form input:focus,
