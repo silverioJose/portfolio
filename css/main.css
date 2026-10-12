@@ -5,6 +5,7 @@
 @import url(header.css);
 @import url(variables.css);
 @import url(contato.css);
+@import url(footer.css);
 
 *{
     font-family: "Poppins";

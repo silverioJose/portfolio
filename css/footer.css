@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+
+    
+    
+    background-color: var(--color-glass);
+    backdrop-filter: blur(10px);
+    color: var(--color-text);
+
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 15px 15px 0 0;
+
+    padding: 10px 50px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.footer__col {
+    display: flex;
+    flex-direction: column;
+    
+}
