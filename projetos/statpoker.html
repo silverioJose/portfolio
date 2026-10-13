@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../imgs/j.png">
 </head>
-<body class="body">
+<body class="body statpoker">
     <div class="content">
 
         <header class="header" id="header">
@@ -30,7 +30,7 @@
 
         <main class="main">
             <div class="project__info">
-                <h1 class="title">StatPoker</h1>
+                <h1 class="title project-title">StatPoker</h1>
                 <p>
                     Desenvolvido em conjunto com 
                     <a href="https://github.com/NaomiMoon6" target="_blank">
@@ -56,52 +56,52 @@
                 <h2 class="project__info-title">Estrutura de arquivos</h2>
                 <div class="project__structure">
                     <pre class="folder-structure"><code>
-StatPoker/
-├── index.php                 <—- Landing page
-│
-├── src/
-│   ├── Config/
-│   │   └── Database.php      <—- Conexão com banco de dados
-│   ├── Controller/
-│   │   ├── excluir.php       <—- Intermediário entre o banco e o DAO
-│   │   └── salvar.php        <—- Intermediário entre o banco e o DAO
-│   ├── DAO/
-│   │   ├── ItemDAO.php       <—- Objeto de acesso de dados para itens Caixa
-│   │   └── TorneioDAO.php    <—- Objeto de acesso de dados para torneios
-│   ├── Model/
-│   │   ├── ItemCaixa.php     <—- Classe Itens Caixa com getters e setters
-│   │   └── Torneio.php       <—- Classe Torneios com getters e setters
-│   └── Views/
-│       ├── home/
-│       │   └── home.php      <—- Placeholder de dashboard com dados gerais
-│       ├── layouts/
-│       │   ├── footer.php    <—- Placeholder de footer
-│       │   └── header.php    <—- Header e barra lateral reutilizáveis
-│       └── torneios/
-│           ├── criar.php     <—- Formulário para criar novos torneios
-│           └── lista.php     <—- Lista de todos os torneios
-└── public/
-├── assets/
-│   ├── fonts/            <—- Fontes customizadas
-│   ├── icons/            <—- Favicon
-│   └── imgs/             <—- Logo e outras imagens
-├── css/
-│   ├── base/
-│   │   ├── chip-animation.css <—- Animação de fundo
-│   │   ├── fonts.css     <—- Importa fontes
-│   │   ├── normalize.css <—- Remove estilos padrão de navegador
-│   │   ├── page.css      <—- Edita o layout básico da página
-│   │   └── variables.css <—- Guarda variáveis de cor
-│   ├── blocks/
-│   │   ├── form.css      <—- Edita o formulário
-│   │   ├── header.css    <—- Edita o header
-│   │   ├── landing.css   <—- Edita a landing page
-│   │   ├── list.css      <—- Edita a lista de torneios
-│   │   └── sidebar.css   <—- Edita a barra lateral
-│   └── main.css          <—- Importa os outros arquivos .css
-└── js/
-    ├── torneio-filtro.js <—- Script para filtrar torneios na lista
-    └── torneio-novo.js   <—- Script para atualizar a lista de blinds
+    StatPoker/
+    ├── index.php                 <—- Landing page
+    │
+    ├── src/
+    │   ├── Config/
+    │   │   └── Database.php      <—- Conexão com banco de dados
+    │   ├── Controller/
+    │   │   ├── excluir.php       <—- Intermediário entre o banco e o DAO
+    │   │   └── salvar.php        <—- Intermediário entre o banco e o DAO
+    │   ├── DAO/
+    │   │   ├── ItemDAO.php       <—- Objeto de acesso de dados para itens Caixa
+    │   │   └── TorneioDAO.php    <—- Objeto de acesso de dados para torneios
+    │   ├── Model/
+    │   │   ├── ItemCaixa.php     <—- Classe Itens Caixa com getters e setters
+    │   │   └── Torneio.php       <—- Classe Torneios com getters e setters
+    │   └── Views/
+    │       ├── home/
+    │       │   └── home.php      <—- Placeholder de dashboard com dados gerais
+    │       ├── layouts/
+    │       │   ├── footer.php    <—- Placeholder de footer
+    │       │   └── header.php    <—- Header e barra lateral reutilizáveis
+    │       └── torneios/
+    │           ├── criar.php     <—- Formulário para criar novos torneios
+    │           └── lista.php     <—- Lista de todos os torneios
+    └── public/
+    ├── assets/
+    │   ├── fonts/            <—- Fontes customizadas
+    │   ├── icons/            <—- Favicon
+    │   └── imgs/             <—- Logo e outras imagens
+    ├── css/
+    │   ├── base/
+    │   │   ├── chip-animation.css <—- Animação de fundo
+    │   │   ├── fonts.css     <—- Importa fontes
+    │   │   ├── normalize.css <—- Remove estilos padrão de navegador
+    │   │   ├── page.css      <—- Edita o layout básico da página
+    │   │   └── variables.css <—- Guarda variáveis de cor
+    │   ├── blocks/
+    │   │   ├── form.css      <—- Edita o formulário
+    │   │   ├── header.css    <—- Edita o header
+    │   │   ├── landing.css   <—- Edita a landing page
+    │   │   ├── list.css      <—- Edita a lista de torneios
+    │   │   └── sidebar.css   <—- Edita a barra lateral
+    │   └── main.css          <—- Importa os outros arquivos .css
+    └── js/
+        ├── torneio-filtro.js <—- Script para filtrar torneios na lista
+        └── torneio-novo.js   <—- Script para atualizar a lista de blinds
                             </code></pre>
                     </div>
             </div>

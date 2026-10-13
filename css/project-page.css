@@ -10,6 +10,7 @@
 .btn-project {
     display: inline-block;
     background-color: var(--color-glass);
+    backdrop-filter: blur(var(--blur));
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
     cursor: pointer;
     border: 1px solid transparent;
@@ -85,7 +86,7 @@
     width: 100%;
     margin-top: 0;
     background-color: var(--color-glass);
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(var(--blur));
     border-radius: 15px;
     
     border-top: 1px solid var(--border);
@@ -97,7 +98,7 @@
 .list {
     padding: 15px;
     background-color: var(--color-glass);
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(var(--blur));
     border-radius: 15px;
     
     border-top: 1px solid var(--border);
@@ -126,6 +127,7 @@
 }
 
 .project__structure {
+    backdrop-filter: blur(var(--blur));
     border-top: 1px solid var(--border);
     border-left: 1px solid var(--border);
     background-color: var(--color-glass);
@@ -146,6 +148,7 @@
     border-top: 1px solid var(--border);
     border-left: 1px solid var(--border);
     background-color: var(--color-glass);
+    backdrop-filter: blur(var(--blur));
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
     border-radius: 15px;
     display: block;
@@ -171,4 +174,37 @@
     .project__info--col-table {
         grid-template-columns: 1fr;
     }
+}
+
+/*
+
+
+.dec {
+    background: radial-gradient(circle at 50% 0%, #075632 0%, #0c1503 50%, #000000 100%);
+}
+
+.jornada {
+        background: radial-gradient(circle at 50% 0%, #070c56 0%, #030515 50%, #000000 100%);
+}
+
+.estoque {
+        background: radial-gradient(circle at 50% 0%, #0c426c 0%, #030e15 50%, #000000 100%);
+}
+
+.statpoker {
+        background: radial-gradient(circle at 50% 0%, #0b0756 0%, #2d0806 50%, #000000 100%);
+}
+
+.gdp {
+        background: radial-gradient(circle at 50% 0%, #3d0c0c 0%, #2d2a24 50%, #000000 100%);
+}
+
+*/
+
+.dec {
+    background: radial-gradient(circle at 50% 0%, #075632 0%, #0c1503 50%, #000000 100%);
+}
+
+.statpoker {
+    background: radial-gradient(circle at 50% 0%, #0b0756 0%, #2d0806 50%, #000000 100%);
 }

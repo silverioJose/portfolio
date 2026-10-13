@@ -1,3 +1,4 @@
+
 .index-title {
     font-size: 100px;
     margin-top: 170px;
@@ -9,9 +10,9 @@
 }
 
 .btn {
-    padding: 20px 30px;
+    padding: 18px 26px;
     background-color: var(--color-glass);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
 
     border-top: 1px solid var(--border);
     border-left: 1px solid var(--border);
@@ -22,6 +23,7 @@
     transition: transform 0.3s ease;
 
     margin-bottom: 20px;
+    margin-right: 8px;
 }
 
 .btn:hover {
@@ -46,4 +48,42 @@
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.09);
 
     transform: translateY(-3px);
+}
+
+@media (max-width: 1200px) {
+    .index-title {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 800px) {
+    .index-title {
+        margin-top: 100px;
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 650px) {
+    .index-title {
+        margin-top: 70px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .index-title {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    .about-links a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 270px) {
+    .index-title {
+        margin-top: 20px;
+        font-size: 40px;
+    }
 }

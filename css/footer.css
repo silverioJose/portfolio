@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--color-glass);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
     color: var(--color-text);
 
     border-top: 1px solid var(--border);

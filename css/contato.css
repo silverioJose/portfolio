@@ -7,7 +7,7 @@
 
 .contato_info {
     background-color: var(--color-glass);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
 
     border-top: 1px solid var(--border);
     border-left: 1px solid var(--border);
@@ -80,8 +80,6 @@
     margin-bottom: 10px;
 }
 
-
-
 .contato_form {
     padding: 20px;
     display: flex;
@@ -92,7 +90,7 @@
 
 
     background-color: var(--color-glass);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
 
     border-top: 1px solid var(--border);
     border-left: 1px solid var(--border);
