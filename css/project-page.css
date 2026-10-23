@@ -20,6 +20,8 @@
     border-left: 1px solid var(--border);
 
     transition: transform 0.3s ease;
+
+    max-width: 85px;
 }
 
 .btn-project:hover {
@@ -159,6 +161,7 @@
     font-size: 20px;
 
     transition: transform 0.3s ease;
+    
 }
 
 .end__btn-project:hover {
@@ -173,6 +176,48 @@
 
     .project__info--col-table {
         grid-template-columns: 1fr;
+    }
+}
+
+
+
+.info__col {
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    place-items: center;
+    
+}
+
+.info__col-link {
+    width: 100%;
+    text-align: right;
+    gap: 10px;
+}
+
+@media (max-width: 700px) {
+    .info__col-link {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: end;
+    }
+}
+
+@media (max-width: 400px) {
+    .info__col {
+        grid-template-columns: 1fr;
+    }
+
+    .info__col-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: end;
+    }
+    .btn-project {
+        max-width: 900px;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -199,8 +244,6 @@
         background: radial-gradient(circle at 50% 0%, #3d0c0c 0%, #2d2a24 50%, #000000 100%);
 }
 
-*/
-
 .dec {
     background: radial-gradient(circle at 50% 0%, #075632 0%, #0c1503 50%, #000000 100%);
 }
@@ -208,3 +251,7 @@
 .statpoker {
     background: radial-gradient(circle at 50% 0%, #0b0756 0%, #2d0806 50%, #000000 100%);
 }
+
+
+*/
+
